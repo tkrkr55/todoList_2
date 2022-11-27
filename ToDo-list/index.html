@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <title>ToDo</title>
+<link rel="stylesheet" href="./style.css">
+<script src="./script.js" defer></script>
+
+</head>
+<body>
+  <h1>ToDo</h1>
+  <div class="Todo-Container">
+    <input type="text" id="todo-input"onkeydown="KeyCodeCheck()"/>
+    <ul id="todo-list"></ul>
+    <div class="deletet-btn-wraaper">
+    <button id="btn"
+    onclick="deleteAll()">전체 삭제</button>
+   </div>
+  </div>
+</body>
+</html>
